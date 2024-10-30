@@ -1,13 +1,5 @@
 name: Cypress CI with Reports
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
+on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
