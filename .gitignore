@@ -2,3 +2,7 @@
 node_modules/
 # Ignore VS Code settings
 .vscode/
+# Ignore the reports
+cypress/reports/
+# Ignore the screenshots
+cypress/screenshots/
