@@ -1,5 +1,7 @@
 {
   "welcomeMsg": "Welcome to GitHub! Let's begin the adventure",
-  "pricingMsg": "Get the complete developer platform."
-  
+  "pricingMsg": "Get the complete developer",
+  "enterprisePlatformMsg": "The AI-powered",
+  "enterpriseAdvancedSecurityMsg": "Application security",
+  "openSourceSponsorsMsg": "Support the developers who power open source"
 }
