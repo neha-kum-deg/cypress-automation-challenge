@@ -4,11 +4,7 @@
   "description": "Cypress automation with TypeScript for GitHub homepage",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headless",
-    "report:merge": "mochawesome-merge cypress/reports/*.json > cypress/reports/mochawesome.json",
-    "report:generate": "marge cypress/reports/mochawesome.json --reportDir cypress/reports --inline",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "test": "cypress run --headless"   
   },
   "keywords": [],
   "author": "",

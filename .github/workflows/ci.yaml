@@ -31,15 +31,7 @@ jobs:
       - name: Run Cypress tests
         run: npm run test
 
-      # Step 5: Merge Mochawesome reports
-      - name: Merge Mochawesome reports
-        run: npm run report:merge
-
-      # Step 6: Generate HTML report
-      - name: Generate HTML report
-        run: npm run report:generate
-
-      # Step 7: Upload test reports as artifacts
+      # Step 5: Upload test reports as artifacts
       - name: Upload Cypress report
         uses: actions/upload-artifact@v3
         with:
